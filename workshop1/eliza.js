@@ -43,6 +43,10 @@ var rules = {
   "~*x name ~*y": [
     "I am not interested in names",
   ],
+  "~*x consummate ~*y": [
+  	"Let me consume you",
+  	],
+  ],
   "~*x sorry ~*y": [
     "Please don't apologize",
     "Apologies are not necessary",
@@ -66,6 +70,9 @@ var rules = {
     "What would it mean if you got ~y?",
     "Why do you want ~y?",
     "Suppose you got ~y soon.",
+    
+    "~*x I desire ~*y": [
+    "you ~y?",
   ],
     "~*x I need ~*y": [
     "What would it mean if you got ~y?",
